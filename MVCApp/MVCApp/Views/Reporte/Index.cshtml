@@ -1,0 +1,25 @@
+﻿@model List<Saludo>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Reporte";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table>
+    @foreach (var saludo in Model)
+    {
+        <tr>
+            <td>@saludo.Nombre</td>
+            <td>@saludo.Mensaje</td>
+        </tr>
+    }
+    @* @for (int i = 0; i < Model.Count; i++)
+    {
+        <tr>
+            <td>Model[i].Nombre</td>
+            <td>Model[i].Mensaje</td>
+        </tr>
+    } *@
+</table>

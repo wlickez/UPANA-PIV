@@ -1,0 +1,27 @@
+ Core Topics in Programming 4
+- Object-Oriented Programming (OOP)
+	- Inheritance, polymorphism, encapsulation
+	- Abstract classes and interfaces
+- Modular Programming
+	- Structuring reusable components, SOLID principles
+- Design Patterns
+	- Factory Method, Singleton, Observer, Strategy
+- Advanced Data Structures
+	- Trees, graphs, heaps, hash tables
+- Algorithms
+	- Sorting and searching techniques
+	- Recursion and dynamic programming
+- Asynchronous Programming
+	- Tasks, async/await, concurrency models
+- Error Handling & Debugging
+	- Exception management, logging strategies
+- Unit Testing & Test-Driven Development (TDD)
+	- Writing test cases, mocking, coverage analysis
+- File I/O and Serialization
+	- Reading/writing files, JSON/XML serialization
+- Database Integration
+	- SQL queries, stored procedures, ORM tools
+- Web Development Frameworks
+	- ASP.NET MVC, Blazor, routing, layout management
+- Security Concepts
+	- JWT authentication, claims-based authorization

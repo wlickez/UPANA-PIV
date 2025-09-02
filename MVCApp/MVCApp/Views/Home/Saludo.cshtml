@@ -1,0 +1,16 @@
+﻿@model MVCApp.Models.Saludo
+@{
+    ViewData["Title"] = "Saludo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("Saludo", "Home", FormMethod.Post))
+{
+    <label>Mensaje</label>
+    @Html.EditorFor(model => model.Mensaje)
+
+    <label>Nombre</label>
+    @Html.EditorFor(model => model.Nombre)
+
+    <input type="submit" value="Enviar" />
+
+}

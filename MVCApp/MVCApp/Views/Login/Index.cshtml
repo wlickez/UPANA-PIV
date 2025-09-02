@@ -1,0 +1,17 @@
+﻿@model MVCApp.Models.UsuarioLogin
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Login", "Login", FormMethod.Post))
+{
+    <label>usuario</label>
+    @Html.EditorFor(model => model.User)
+
+    <label>Password</label>
+    @Html.EditorFor(model => model.Password)
+
+    <input type="submit" value="Enviar" />
+
+}
