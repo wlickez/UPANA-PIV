@@ -1,0 +1,6 @@
+@Detectores.Api_HostAddress = http://localhost:5231
+
+GET {{Detectores.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

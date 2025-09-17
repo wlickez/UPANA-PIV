@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrosApi", "LibrosApi\LibrosApi.csproj", "{31A3E02E-D320-4E85-B4BD-F056AD4D6466}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31A3E02E-D320-4E85-B4BD-F056AD4D6466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A3E02E-D320-4E85-B4BD-F056AD4D6466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A3E02E-D320-4E85-B4BD-F056AD4D6466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A3E02E-D320-4E85-B4BD-F056AD4D6466}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0236A266-B3BE-4C9E-B0AD-C1E24B10CD70}
+	EndGlobalSection
+EndGlobal
