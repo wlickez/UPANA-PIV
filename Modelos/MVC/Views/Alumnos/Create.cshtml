@@ -1,0 +1,19 @@
+﻿@model Modelos.Alumno
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <form asp-action="Create" method="post">
+        <div class="form-group">
+            <label asp-for="Codigo"></label>
+            <input asp-for="Codigo" class="form-control" />
+
+            <label asp-for="Nombre"></label>
+            <input asp-for="Nombre" class="form-control" />
+            <button type="submit" class="btn btn-primary mt-3">Guardar</button>
+        </div>
+        
+        </form>
+</div>

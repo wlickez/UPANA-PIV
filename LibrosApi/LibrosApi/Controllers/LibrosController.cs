@@ -1,4 +1,5 @@
 ﻿using LibrosApi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibrosApi.Controllers
@@ -7,6 +8,7 @@ namespace LibrosApi.Controllers
     [ApiController]
     public class LibrosController : ControllerBase
     {
+        [Authorize]
         [HttpGet]
         [Route("api/libros/getbyid/{id}")]
         public IActionResult Get(int id)
